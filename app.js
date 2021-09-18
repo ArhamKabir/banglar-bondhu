@@ -11,12 +11,12 @@ let i = 0;
 let images = [];
 let time = 3000;
 
-images[0] = "/img/f-1.PNG";
-images[1] = "/img/b-2.PNG";
-images[2] = "/img/s-3.PNG";
-images[1] = "/img/s-3.PNG";
-images[1] = "/img/s-4.PNG";
-images[1] = "/img/p-6.PNG";
+images[0] = "./img/f-1.PNG";
+images[1] = "./img/b-2.PNG";
+images[2] = "./img/s-3.PNG";
+images[1] = "./img/s-3.PNG";
+images[1] = "./img/s-4.PNG";
+images[1] = "./img/p-6.PNG";
 
 function changeImg() {
   document.slide.src = images[i];
